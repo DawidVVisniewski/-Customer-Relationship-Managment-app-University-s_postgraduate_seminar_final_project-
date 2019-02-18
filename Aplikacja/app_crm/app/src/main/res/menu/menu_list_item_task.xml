@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+>
+    <item
+        android:id="@+id/i_delete_list_item"
+        android:title="Usuń"
+    />
+    <item
+        android:id="@+id/i_complet"
+        android:title="Zrealizowane"
+    />
+    <item
+        android:id="@+id/i_to_complet"
+        android:title="Do realizacji"
+    />
+</menu>

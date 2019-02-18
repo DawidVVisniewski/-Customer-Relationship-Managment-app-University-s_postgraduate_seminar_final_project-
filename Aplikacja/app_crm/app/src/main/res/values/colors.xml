@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="colorPrimary">#0D1F35</color>
+    <color name="colorPrimaryDark">#0D1F35</color>
+    <color name="colorAccent">#5A6C84</color>
+
+    <color name="colorLoginButton">#5A6C84</color>
+    <color name="colorLoginBackground">#F3F3F4</color>
+
+    <color name="colorNavHeader">#5A6C84</color>
+    <color name="colorNavBackground">#F3F3F4</color>
+
+    <color name="colorCardView">#F3F3F4</color>
+
+    <color name="colorCardViewTaskFlakTrue">#EDF4E3</color>
+    <color name="colorCardViewTaskFlakFalse">#F3E5E7</color>
+</resources>

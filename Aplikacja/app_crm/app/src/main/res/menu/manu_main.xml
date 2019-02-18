@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+>
+    <group
+        android:checkableBehavior="single"
+    >
+        <item
+        android:id="@+id/i_nav_client"
+            android:icon="@mipmap/ic_client"
+            android:title="Klienci"
+        />
+        <item
+            android:id="@+id/i_nav_help"
+            android:icon="@mipmap/ic_help"
+            android:title="Pomoc"
+        />
+        <item
+            android:id="@+id/i_nav_info"
+            android:icon="@mipmap/ic_info"
+            android:title="O programie"
+        />
+        <item
+            android:id="@+id/i_nav_log_out"
+            android:icon="@mipmap/ic_log_out"
+            android:title="Wyloguj się"
+        />
+    </group>
+</menu>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.DrawerLayout
+    android:id="@+id/dl_navigation"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+>
+    <include
+        layout="@layout/activity_main_app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    />
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nv_navigation"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        android:background="#F3F3F4"
+        app:headerLayout="@layout/activity_main_nav_header"
+        app:menu="@menu/manu_main"
+    />
+</android.support.v4.widget.DrawerLayout>

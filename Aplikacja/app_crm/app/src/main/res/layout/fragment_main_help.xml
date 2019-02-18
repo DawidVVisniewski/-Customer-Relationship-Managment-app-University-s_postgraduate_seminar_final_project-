@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+>
+    <TextView
+        android:id="@+id/tv_title_help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:text="Pomoc"
+        android:textSize="20sp"
+    />
+
+    <TextView
+        android:id="@+id/tv_description_help"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="W aplikacji dostęp do poszczególnych funkcji umożliwiają trzy rodzaje menu. Jedno menu główne, wysuwane z lewej strony po naciśnięciu przycisku u góry aplikacji, który jest zawsze dostępny. Kolejnym menu są zakładki w panelu klienta, które pozwalają na łatwy sposób przełączania się pomiędzy oknami w tym panelu. Kolejnym wykorzystanym menu są opcje dla poszczególnych elementów listy. Opcje te pozwalają w prosty sposób wykonywać dostępne operacje na tych elementach bez niepotrzebnego szukania ich wśród innych elementów aplikacji. Dodatkowo dla każdego okna z danymi, dla którego jest możliwość wprowadzania danych, w prawym dolnym rogu pojawia się przycisk dodaj, które przekierowuje użytkownika do odpowiedniego formularza do wprowadzania danych. Wszystkie opisane elementy są łatwo dostępne, można szybko je znaleźć." />
+</LinearLayout>

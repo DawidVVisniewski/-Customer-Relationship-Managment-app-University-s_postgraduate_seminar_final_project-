@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">CRM</string>
+
+    <string name="prompt_email">E-mail</string>
+    <string name="prompt_password">Hasło</string>
+    <string name="prompt_name_client">Nazwa</string>
+    <string name="prompt_type_client">Typ</string>
+    <string name="prompt_description_client">Opis</string>
+    <string name="prompt_name_contact">Imię</string>
+    <string name="prompt_surname_contact">Nazwisko</string>
+    <string name="prompt_phone_contact">Telefon</string>
+    <string name="prompt_data_meet">Data (RRRR-MM-DD)</string>
+    <string name="prompt_time_meet">Godzina (HH:SS)</string>
+    <string name="prompt_location_meet">Miejsce</string>
+
+    <string name="action_sign_in">Zaloguj się</string>
+    <string name="action_sign_in_short">Zaloguj się</string>
+
+    <string name="error_invalid_email">Błędny e-mail</string>
+    <string name="error_invalid_password">Hasło jest za krótkie</string>
+    <string name="error_incorrect_password">Błędne hasło</string>
+    <string name="error_field_required">Uzupełnij e-mail</string>
+
+    <string name="permission_rationale">Contacts permissions are needed for providing email completions.</string>
+
+    <string name="title_activity_main">CRM</string>
+
+    <string name="navigation_drawer_open">Otwórz panel nawigacji</string>
+    <string name="navigation_drawer_close">Zamknij panel nawigacji</string>
+
+    <string name="action_settings">Ustawienia</string>
+
+    <string-array name="aTypeClient">
+        <item>perspektywa</item>
+        <item>klient</item>
+        <item>sprzedawca</item>
+    </string-array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

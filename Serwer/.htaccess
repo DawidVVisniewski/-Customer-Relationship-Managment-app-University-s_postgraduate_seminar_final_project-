@@ -1,0 +1,36 @@
+# Turn rewrite engine on
+Options +FollowSymlinks
+RewriteEngine on
+
+# map neat URL to internal URL
+
+RewriteRule ^client/list/$   clientRestController.php?page_key=list [nc,qsa]
+RewriteRule ^client/list$   clientRestController.php?page_key=list  [nc,qsa]
+RewriteRule ^client/add/$   clientRestController.php?page_key=add [L]
+RewriteRule ^client/delete/([0-9]+)/$   clientRestController.php?page_key=delete&id=$1 [L]
+
+RewriteRule ^note/list/$   noteRestController.php?page_key=list [nc,qsa]
+RewriteRule ^note/list$   noteRestController.php?page_key=list  [nc,qsa]
+RewriteRule ^note/add/$   noteRestController.php?page_key=add [L]
+RewriteRule ^note/delete/([0-9]+)/$   noteRestController.php?page_key=delete&id=$1 [L]
+
+RewriteRule ^task/list/$   taskRestController.php?page_key=list [nc,qsa]
+RewriteRule ^task/list$   taskRestController.php?page_key=list  [nc,qsa]
+RewriteRule ^task/add/$   taskRestController.php?page_key=add [L]
+RewriteRule ^task/update/([0-9]+)/$   taskRestController.php?page_key=update&id=$1 [L]
+RewriteRule ^task/delete/([0-9]+)/$   taskRestController.php?page_key=delete&id=$1 [L]
+
+RewriteRule ^meet/list/$   meetRestController.php?page_key=list [nc,qsa]
+RewriteRule ^meet/list$   meetRestController.php?page_key=list  [nc,qsa]
+RewriteRule ^meet/add/$   meetRestController.php?page_key=add [L]
+RewriteRule ^meet/delete/([0-9]+)/$   meetRestController.php?page_key=delete&id=$1 [L]
+
+RewriteRule ^contact/list/$   contactRestController.php?page_key=list [nc,qsa]
+RewriteRule ^contact/list$   contactRestController.php?page_key=list  [nc,qsa]
+RewriteRule ^contact/add/$   contactRestController.php?page_key=add [L]
+RewriteRule ^contact/delete/([0-9]+)/$   contactRestController.php?page_key=delete&id=$1 [L]
+
+RewriteRule ^activity/list/$   activityRestController.php?page_key=list [nc,qsa]
+RewriteRule ^activity/list$   activityRestController.php?page_key=list  [nc,qsa]
+
+RewriteRule ^account$   accountRestController.php?page_key=list  [nc,qsa]
