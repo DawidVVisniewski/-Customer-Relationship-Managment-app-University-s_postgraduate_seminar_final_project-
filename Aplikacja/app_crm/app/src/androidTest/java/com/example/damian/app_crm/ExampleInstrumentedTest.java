@@ -1,4 +1,4 @@
-package com.example.damian.app_crm;
+package com.example.dawid.app_crm;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.damian.app_crm", appContext.getPackageName());
+        assertEquals("com.example.dawid.app_crm", appContext.getPackageName());
     }
 }
