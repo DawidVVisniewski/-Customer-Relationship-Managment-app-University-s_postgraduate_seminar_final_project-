@@ -1,4 +1,4 @@
-package com.example.damian.app_crm;
+package com.example.dawid.app_crm;
 
 /*
 Klasa abstrakcyjna do tworzenia karty (elementu) listy dla wyświetlanych danych
